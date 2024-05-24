@@ -5,3 +5,15 @@
     color:#333;
     box-sizing: border-box;
 }
+
+.main-content__title{
+    margin-bottom: 1rem;
+    &--light{
+      font-weight: lighter;
+      margin-bottom: 0rem;
+    }
+    &--bold{
+        font-weight: bolder;
+    }
+  
+  }
