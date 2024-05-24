@@ -4,4 +4,15 @@
   font-family: arial;
   color: #333;
   box-sizing: border-box;
+}
+
+.main-content__title {
+  margin-bottom: 1rem;
+}
+.main-content__title--light {
+  font-weight: lighter;
+  margin-bottom: 0rem;
+}
+.main-content__title--bold {
+  font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
