@@ -27,6 +27,13 @@ body {
   flex-direction: column;
   flex-grow: 1;
 }
+.main-content__title--light {
+  font-weight: lighter;
+  margin-bottom: 0rem;
+}
+.main-content__title--bold {
+  font-weight: bolder;
+}
 .main-content__quizz-list {
   display: flex;
   flex-direction: column;

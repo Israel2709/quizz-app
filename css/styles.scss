@@ -25,6 +25,13 @@ body{
         display: flex;
         flex-direction: column;
         flex-grow: 1;
+        &--light{
+            font-weight: lighter;
+            margin-bottom: 0rem;
+          }
+          &--bold{
+              font-weight: bolder;
+          }
     }
     &__quizz-list{
         display: flex;
