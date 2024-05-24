@@ -6,8 +6,26 @@
   box-sizing: border-box;
 }
 
+body {
+  background: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-content {
+  border: 1px solid white;
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  gap: 1rem;
+}
 .main-content__title {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .main-content__title--light {
   font-weight: lighter;
@@ -15,4 +33,9 @@
 }
 .main-content__title--bold {
   font-weight: bolder;
+}
+.main-content__quizz-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }/*# sourceMappingURL=styles.css.map */

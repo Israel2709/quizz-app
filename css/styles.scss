@@ -6,14 +6,37 @@
     box-sizing: border-box;
 }
 
-.main-content__title{
-    margin-bottom: 1rem;
-    &--light{
-      font-weight: lighter;
-      margin-bottom: 0rem;
+body{
+    background: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content{
+    border: 1px solid white;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    gap:1rem;
+    &__title{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        &--light{
+            font-weight: lighter;
+            margin-bottom: 0rem;
+          }
+          &--bold{
+              font-weight: bolder;
+          }
     }
-    &--bold{
-        font-weight: bolder;
+    &__quizz-list{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
-  
-  }
+}
+
